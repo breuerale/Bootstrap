@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    font-family: 'Dancing Script', cursive ,sans-serif;
+    margin: 3px;
+    padding: 0;
+}
+
+/* Grid NAVBAR */
+.gridEncabezado{
+    display: grid;
+    align-items: center;
+    grid-template-areas: "menue1 logotipo menue2 iconos";
+    grid-template:       "menue1 logotipo menue2 iconos" 150px /
+                            40%     15%     40%  auto;
+}
+
+/* Establezco los grid-area */
+
+.menue1{
+    grid-area: menue1;
+}
+
+.logotipo{
+    grid-area: logotipo;
+}
+
+.menue2{
+    grid-area: menue2;
+}
+
+.iconos{
+    grid-area:iconos ;
+}
+
+/* Le doy Estilos a los elementos dentro del Header(NAVBAR) */
+
+.menu1{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.menu1 li:hover, li :active{
+    background-color: rgb(200, 26, 206);
+    font-weight: 500;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+.nav1 a{
+    color: rgb(19, 2, 2);
+    text-decoration: none;
+    font-size: larger;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+
+.logotipo{
+    display: flex;
+    justify-content: space-around;
+}
+
+img.logo{
+    padding-top: 10px;
+    width: 150px ;
+    height:150px ;
+    border-radius: 50%;
+}
+
+.menu2{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.menu2 li:hover, li :active{
+    background-color: rgb(200, 26, 206);
+    transition: 0.4s;
+    font-weight: 500;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+.nav2 a{
+    color: rgb(19, 2, 2);
+    text-decoration: none;
+    font-size: larger;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
+
+
