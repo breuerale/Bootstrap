@@ -99,33 +99,59 @@ img.logo{
     font-size: larger;
 }
 
-
-.seccion{
-    
+/* Titulo productos */
+.titulo3{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
 }
 
-.carrusel{
-    
-}
-
+/* Le doy un tamaño distinto a las imagenes dentro del slider, solamente les cambio la altura
+si les camnbio el ancho desde aca no pasa nada, no quedo como queria */
 .baileys{
-
     height: 700px;
-    
 }
 
 .coquitorta{
-
     height: 700px;
-    
 }
 
 .maracuya{ 
     height: 700px;
-    
 }
 
+/* Al texto dentro del slider le cambio el color y el tamaño de las letras */
+.baileys2{
+    color: blueviolet;
+    font-size: x-large;
+}
 
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Empiezo a  darle estilos a la seccion 2 */
+
+.seccion2{
+    display: flex;
+}
+
+/* Imagenes */
+
+.mesadulce{
+    width: 200px;
+    height: 200px;
+}
+
+.tortasPostres{
+    width: 200px;
+    height: 200px;
+}
+
+.boxes{
+    width: 200px;
+    height: 200px;
+}
 
 
 
